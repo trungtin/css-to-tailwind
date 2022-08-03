@@ -11,5 +11,8 @@ module.exports = {
         ecmaVersion: 12,
     },
     plugins: ['jest'],
-    rules: {},
+    rules: {
+        "no-unused-vars": "warn",
+        "no-inner-declarations": 0
+    },
 };

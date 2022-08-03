@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transform should work 1`] = `
+Array [
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "border-color",
+          "rgba(250, 208, 208, 1)",
+        ],
+        Array [
+          "color",
+          "rgba(255, 255, 255, 1)",
+        ],
+      ],
+    },
+    "selector": ".alert",
+    "tailwind": "relative pt-6 pr-20 pb-6 pl-20 mb-6 border-t border-r border-b border-l border border-solid rounded w-full",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__logo",
+    "tailwind": "mb-6 min-h-[4rem] flex justify-center",
+  },
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "background-color",
+          "rgba(255, 255, 255, 1)",
+        ],
+        Array [
+          "border-color",
+          "rgba(229, 229, 229, 1)",
+        ],
+      ],
+    },
+    "selector": ".guest-layout__container",
+    "tailwind": "border-t border-r border-b border-l border border-solid rounded",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout",
+    "tailwind": "mt-32 mr-auto mb-32 ml-auto max-w-fit",
+  },
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "border-color",
+          "rgba(229, 229, 229, 1)",
+        ],
+      ],
+    },
+    "selector": ".guest-layout__header",
+    "tailwind": "font-normal text-3xl leading-[48px] tracking-wide pt-10 pr-10 pb-10 pl-10 border-b border-solid",
+  },
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "border-color",
+          "rgba(229, 229, 229, 1)",
+        ],
+      ],
+    },
+    "selector": ".guest-layout__footer",
+    "tailwind": "w-full flex justify-between items-center flex-row-reverse pt-10 pr-12 pb-10 pl-12 border-t border-solid",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__footer--compact",
+    "tailwind": "pt-0 pr-0 pb-0 pl-0 mt-6",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__content",
+    "tailwind": "flex flex-nowrap w-[608px]",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__content--with-side-content",
+    "tailwind": "w-[1216px]",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__content--with-side-contentdfdf",
+    "tailwind": "w-6/12",
+  },
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "border-color",
+          "rgba(229, 229, 229, 1)",
+        ],
+      ],
+    },
+    "selector": ".guest-layout__content--with-separatordfdfdf",
+    "tailwind": "border-r border-solid",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__content-inner",
+    "tailwind": "w-full flex justify-center flex-col mt-0 mr-0 mb-0 ml-0 pt-12 pr-12 pb-12 pl-12",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__content--with-separatordfdf",
+    "tailwind": "",
+  },
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "background-color",
+          "rgba(227, 230, 230, 1)",
+        ],
+      ],
+    },
+    "selector": ".guest-layout__side-content",
+    "tailwind": "w-6/12 pt-12 pr-12 pb-12 pl-12 flex justify-center flex-col",
+  },
+  Object {
+    "missing": Object {},
+    "selector": ".guest-layout__dfdfdfdf",
+    "tailwind": "mt-0",
+  },
+]
+`;
