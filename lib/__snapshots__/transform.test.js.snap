@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`transform should work 1`] = `
+exports[`transform should work with plain css 1`] = `
 Array [
   Object {
     "missing": Object {
@@ -126,6 +126,56 @@ Array [
     "missing": Object {},
     "selector": ".guest-layout__dfdfdfdf",
     "tailwind": "mt-0",
+  },
+]
+`;
+
+exports[`transform should work with variants css 1`] = `
+Array [
+  Object {
+    "missing": Object {},
+    "selector": ".baz",
+    "tailwind": "pt-6 pr-20 pb-6 pl-20 bg-[url(logo.svg)] bg-no-repeat",
+  },
+  Object {
+    "missing": Object {
+      "base": Array [
+        Array [
+          "border-color",
+          "rgba(250, 208, 208, 1)",
+        ],
+        Array [
+          "color",
+          "rgba(255, 255, 255, 1)",
+        ],
+      ],
+      "focus": Array [
+        Array [
+          "border-color",
+          "rgba(226, 242, 240, 1)",
+        ],
+      ],
+      "hover": Array [
+        Array [
+          "background-color",
+          "rgba(204, 204, 204, 1)",
+        ],
+      ],
+    },
+    "selector": ".foo",
+    "tailwind": "relative pt-6 pr-20 pb-6 pl-20 mb-6 border-t border-r border-b border-l border border-solid rounded w-full",
+  },
+  Object {
+    "missing": Object {
+      "placeholder": Array [
+        Array [
+          "color",
+          "rgba(230, 230, 230, 1)",
+        ],
+      ],
+    },
+    "selector": ".bar",
+    "tailwind": "relative pt-6 pr-20 pb-6 pl-20 xl:pt-12 xl:pr-28 xl:pb-12 xl:pl-28 xl:mb-10",
   },
 ]
 `;
